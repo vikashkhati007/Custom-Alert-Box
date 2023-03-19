@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap');
+
+  * {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: grey;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .userinput-container-para{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .userinput-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .container .userinput-container input {
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 0px 2px;
+    outline: none;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+  }
+
+  .container .AlertBox-container {
+    width: 70vw;
+    height: 45vh;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .xicon{
+    display: flex;
+    cursor: pointer;
+  }
+
+  .button-container{
+    margin: 20px 20px;
+  }
+  .button-container button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    background: blue;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+  }
+  .button-container button:hover{
+    background: rgb(79, 78, 78);
+  }
+
+ 
+
+
+
+
